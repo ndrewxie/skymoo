@@ -1,0 +1,16 @@
+{
+	"name": "mooink",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "echo \"Server starting...\" && NODE_ENV=production node --max-old-space-size=375 index.js",
+		"winstart": "echo \"Server starting...\" && set NODE_ENV=production&&node --max-old-space-size=375 index.js"
+	},
+	"keywords": [],
+	"author": "Sky",
+	"license": "ISC",
+	"dependencies": {
+		"ws": "^7.5.3"
+	}
+}
